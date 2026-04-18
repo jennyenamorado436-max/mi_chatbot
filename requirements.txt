@@ -2,3 +2,5 @@ fastapi
 src.inference
 pydantic
 transformers
+torch
+uvicorn
