@@ -1,3 +1,11 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hola, chatbot listo!"}
+
 def responder(mensaje):
     if "hola" in mensaje.lower():
         return "¡Hola! ¿Cómo estás?"
