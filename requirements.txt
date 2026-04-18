@@ -1,5 +1,4 @@
-fastapi 
-src.inference
+fastapi
 pydantic
 transformers
 torch
