@@ -1,0 +1,4 @@
+fastapi 
+src.inference
+pydantic
+transformers
