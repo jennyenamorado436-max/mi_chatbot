@@ -29,4 +29,4 @@ while True:
     if mensaje.lower() in ["salir", "exit", "quit"]:
         print("Bot: ¡Adiós!")
         break
-    print("Bot:", responder(mensaje))
+    print("Bot:", responder(mensaje)) 
