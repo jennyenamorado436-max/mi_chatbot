@@ -2,4 +2,5 @@ fastapi
 pydantic
 transformers
 torch
-uvicorn
+uvicorn[standard]
+numpy
